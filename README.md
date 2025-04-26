@@ -1,0 +1,4 @@
+video explanation :- https://www.loom.com/share/a30bec0e8ebc418ca5daa7b39386433f?sid=8ceca921-ccbc-4328-bd07-e54c854fcd5c
+
+
+Explain:- The notebook does a complete k-means clustering analysis on the German Credit data: it loads the CSV, validates and cleanses the data (missing values, one-hot encoding categoricals, standardizing numerics), uses the elbow method to determine an optimal number of clusters, trains KMeans and assigns cluster labels to every record, and then uses PCA to project the high-dimensional data to two dimensions to plot a colored scatterplot of cluster separation. Finally, it describes each cluster by plotting boxplots of numerical attributes and countplots of categorical attributes—showing various segments of borrowers (e.g., high value long term vs. small short term loans)—and suggests that these results can guide targeted lending strategies and further validation through means such as silhouette score.
